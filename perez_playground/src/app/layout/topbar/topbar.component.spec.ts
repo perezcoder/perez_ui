@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PerezUiToolkitComponent } from './perez-ui-toolkit.component';
+import { TopbarComponent } from './topbar.component';
 
-describe('PerezUiToolkitComponent', () => {
-  let component: PerezUiToolkitComponent;
-  let fixture: ComponentFixture<PerezUiToolkitComponent>;
+describe('TopbarComponent', () => {
+  let component: TopbarComponent;
+  let fixture: ComponentFixture<TopbarComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [PerezUiToolkitComponent]
+      imports: [TopbarComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(PerezUiToolkitComponent);
+    fixture = TestBed.createComponent(TopbarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

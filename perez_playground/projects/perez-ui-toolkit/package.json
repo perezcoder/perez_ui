@@ -1,12 +1,24 @@
 {
   "name": "perez-ui-toolkit",
-  "version": "0.0.1",
-  "peerDependencies": {
-    "@angular/common": "^19.2.0",
-    "@angular/core": "^19.2.0"
+  "version": "0.0.2",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/perezcoder/perez_ui.git"
   },
   "dependencies": {
     "tslib": "^2.3.0"
   },
-  "sideEffects": false
+  "peerDependencies": {
+    "@angular/common": "^19.2.0",
+    "@angular/core": "^19.2.0"
+  },
+  "sideEffects": false,
+  "description": "This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.0.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
